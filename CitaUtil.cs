@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CitasMedicas
 {
-    internal class CitaUtil
+    public static class CitaUtil
     {
+
     }
 }

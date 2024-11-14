@@ -18,6 +18,7 @@ namespace CitasMedicas
             Nombre = nombre;
             Universidad = universidad;
         }
+
         public override string ToString()
         {
             return $"Codigo: {Codigo}, Nombre: {Nombre}, Universidad: {Universidad}";
