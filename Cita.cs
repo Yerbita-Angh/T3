@@ -13,6 +13,7 @@ namespace CitasMedicas
         public string Enfermedad { get; set; }
         public double Precio { get; set; }
 
+
         public Cita(int numero, Estudiante estudiante, string enfermedad, double precio)
         {
             Numero = numero;
@@ -20,7 +21,6 @@ namespace CitasMedicas
             Enfermedad = enfermedad;
             Precio = precio;
         }
-
         public override string ToString()
         {
             return $"Número: {Numero}, {Estudiante}, Enfermedad: {Enfermedad}, Precio: {Precio:C}";
