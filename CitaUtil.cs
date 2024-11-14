@@ -60,7 +60,6 @@ namespace CitasMedicas
                     cita.Estudiante.Universidad = nuevaUniversidad;
                 }
             }
-
             Console.WriteLine("Universidad modificada exitosamente.");
         }
     }
