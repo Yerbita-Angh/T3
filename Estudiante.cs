@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace CitasMedicas
 {
-    internal class Estudiante
+    public class Estudiante
     {
+        public int Codigo { get; set; }
+        public string Nombre { get; set; }
+        public string Universidad { get; set; }
+
+        public Estudiante(int codigo, string nombre, string universidad)
+        {
+            Codigo = codigo;
+            Nombre = nombre;
+            Universidad = universidad;
+        }
+        public override string ToString()
+        {
+            return $"Codigo: {Codigo}, Nombre: {Nombre}, Universidad: {Universidad}";
+        }
     }
 }
