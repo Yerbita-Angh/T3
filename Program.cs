@@ -1,4 +1,5 @@
 ﻿using CitasMedicas;
+
 class Program
 {
     static void Main(string[] args)
@@ -8,6 +9,7 @@ class Program
 
         do
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("\n--- Menú de Opciones ---");
             Console.WriteLine("1. Crear Cita");
             Console.WriteLine("2. Listar Citas");
@@ -15,7 +17,7 @@ class Program
             Console.WriteLine("4. Salir");
             Console.Write("Seleccione una opción: ");
             opcion = int.Parse(Console.ReadLine());
-
+            Console.ResetColor();
             switch (opcion)
             {
                 case 1:
